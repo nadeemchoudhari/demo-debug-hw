@@ -5,7 +5,11 @@ metadata:
 data:
   # Configuration values can be set as key-value properties
 {{ if eq .Values.deployment.depRegion "de"}}
-  de: Friend
+  de: Friend 
+{{ else if eq .Values.deployment.depRegion "fr"}}
+  fr: Ami
+{{ else if eq .Values.deployment.depRegion "es"}}
+  es: Amigo     
 {{ else }}
   en: World
 {{ end }}

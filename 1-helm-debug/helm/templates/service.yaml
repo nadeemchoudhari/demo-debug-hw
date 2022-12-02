@@ -11,4 +11,4 @@ spec:
     targetPort: {{ .Values.service.targetPort }}
     protocol: TCP
   selector:
-    svc-name: {{ .Values.image.name }}-{{.Values.deployment.default}}
+    svc-name: {{ .Values.image.name }}-{{.Values.deployment.depRegion}}

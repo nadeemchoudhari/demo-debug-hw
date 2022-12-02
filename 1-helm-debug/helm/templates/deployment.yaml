@@ -24,4 +24,3 @@ spec:
                 key: {{.Values.deployment.depRegion}}
                 name: {{ .Values.image.name }}-{{.Values.deployment.depRegion}}
 
-

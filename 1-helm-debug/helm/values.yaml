@@ -1,13 +1,15 @@
 image:
-  name: hello-world
-  tag: latest
-  registry: adamgolab
+  name: devops-demo
+  tag: v3
+  registry: nach1116
+
+
 
 service:
-  port: 8000
-  targetPort: 80
+  port: 80
+  targetPort: 8000
 
 deployment:
   replicas: 1
-  depRegion: de
+  depRegion: fr
   default: en

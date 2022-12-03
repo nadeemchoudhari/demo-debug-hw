@@ -1,6 +1,6 @@
 image:
-  name: devops-demo
-  tag: v3
+  name: demo-hello-world
+  tag: lts
   registry: nach1116
 
 

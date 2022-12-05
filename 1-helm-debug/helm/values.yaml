@@ -11,5 +11,5 @@ service:
 
 deployment:
   replicas: 1
-  depRegion: de
+  depRegion: es
   default: en

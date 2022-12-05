@@ -26,3 +26,27 @@ The application is working by taking value of env variable `WORLD` to display th
       1. "Hello Freund"
       2. "Hello Amigo"
       3. "Hello Ami"
+
+## Solution : 
+
+The Solution for this challenge is at https://github.com/nadeemchoudhari/demo-argocd-helm.git master branch.
+
+### To fix this: 
+
+    1. docker image is rebuild to update index.js file. 
+    2. Made some corrections in helm chart configmap
+    3. Added Virtual service router for /de, /fr, /es matching uri. 
+    4. Istio service mesh enabled on interview namespace and istio gateway configure to listen on port 80.
+     
+         pod target port : 8000
+         service port: 80
+         gateway port : 80
+
+
+#### app is deployed using helm integrated ArgoCD 
+
+ 
+
+   
+   
+     
